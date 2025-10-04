@@ -1,0 +1,62 @@
+/* ===== Ticket Form Custom Styles ===== */
+.ticket-form {
+  background: #ffffff;              /* clean white background */
+  border-radius: 12px;              /* smooth rounded edges */
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08); /* soft card shadow */
+  font-size: 0.95rem;
+}
+
+/* Form labels */
+.ticket-form label {
+  font-weight: 600;
+  color: #003366; /* matches system primary color */
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Inputs & selects */
+.ticket-form .form-control {
+  border: 1px solid #d1d5db;  /* light gray border */
+  border-radius: 8px;
+  padding: 10px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ticket-form .form-control:focus {
+  border-color: #0066cc;  
+  box-shadow: 0 0 0 3px rgba(0,102,204,0.2); /* subtle blue glow */
+}
+
+/* Readonly fields */
+.ticket-form input[readonly] {
+  background-color: #f3f4f6; /* light gray background */
+  cursor: not-allowed;
+  color: #6b7280;
+}
+
+/* Button */
+.ticket-form .btn-success {
+  background: #003366;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 12px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.ticket-form .btn-success:hover {
+  background: #0055aa;
+  transform: translateY(-2px);
+}
+
+.ticket-form .btn-success:active {
+  transform: translateY(0);
+}
+
+/* Spacing for instruction text */
+.ticket-form p {
+  margin-bottom: 20px;
+  color: #374151;
+  line-height: 1.5;
+}
