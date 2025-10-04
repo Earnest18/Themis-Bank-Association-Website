@@ -215,7 +215,7 @@ $profilePic = $profileData
 
 <!-- Account bal -->
     <li class="nav-item d-flex align-items-center">
-      <a href="#" class="nav-link">TBAQS WEBSITE</a>
+      <a href="Dashboard.php" class="nav-link">TBAQS WEBSITE</a>
      </li>
      </ul>
 
@@ -322,7 +322,7 @@ $profilePic = $profileData
 <!--begin::Sidebar Brand-->
         <div class="sidebar-brand">
 <!--begin::Brand Link-->
-          <a href="./index.html" class="brand-link">
+          <a href="Dashboard.php" class="brand-link">
 <!--begin::Brand Image-->
             <img
               src="ui/tbalogo.png"
